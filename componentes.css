@@ -20,3 +20,28 @@ html {
 #barra-navegacion {
     background-color: deepskyblue;
 }
+
+.button-search{
+    color: white;
+    border-color: white;
+}
+.button-search:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.nav-link, #inicio{
+    color: white;
+    font-family: var(--font-text);
+}
+.nav-link:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+#inicio:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
