@@ -1,0 +1,22 @@
+:root {
+    --background-tittle-cards: deepskyblue;
+    --backgournd-shadow-cards: rgb(4, 114, 151);
+    --background-card: rgb(197, 49, 49);
+    --font-text: "Raleway", sans-serif;
+    --font-title-cards: "Libre Baskerville", serif;
+    --font-text-cards: "Libertinus Serif Display", system-ui;
+    --font-text-den: "Michroma", sans-serif;
+    --font-text-den-2: "Cinzel", serif;
+}
+
+body {
+  padding-top: 56px; 
+}
+
+html {
+  scroll-behavior: smooth; /*Hace que el desplazamiento sea suave*/
+}
+
+#barra-navegacion {
+    background-color: deepskyblue;
+}
