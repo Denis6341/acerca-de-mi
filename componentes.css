@@ -45,3 +45,42 @@ html {
     background-color: white;
     border-radius: 5px;
 }
+
+.name{
+    color: white;
+    font-family: var(--font-text-den-2);
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;   
+}
+
+.tarjeta-titulo {
+    font-family: var(--font-title-cards);
+    background-color: var(--background-tittle-cards);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+} 
+
+.full-car:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 5px 5px var(--backgournd-shadow-cards);
+    transition: all 0.3s ease-in-out;
+}
+
+.footer, #contact-me {
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font-text-den);
+    margin-top: 20px;
+}
+
+.github-logo, .linkedln-logo, .email-logo {
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+}
